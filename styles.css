@@ -100,7 +100,7 @@
     
 }
 
-/* hero section */
+/* hero*/
 .hero{
     background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1))
     ,url('./images/gym1.jpg');
@@ -196,4 +196,75 @@
         grid-template-columns: 1fr;
     }
     
+}
+
+/* memberships */
+
+.memberships{
+    background: var(--black);
+    color: var(--white);
+    padding: 6rem calc((100vw-1100px)/2);
+    text-align: center;
+}
+
+.memberships h1{
+    font-size: clamp(1.5rem, 5vw, 3rem);
+    padding: 3rem ;
+}
+
+.membershipsDesc{
+    margin-bottom: 3rem;
+    font-size: clamp(1rem, 3vw, 1.5rem);
+}
+
+.membershipsWrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+ 
+}
+
+.membershipsCard{
+    padding: 2rem;
+    min-height: 450px;
+    width: 375px;
+    background: var(--white);
+    color: var(--black);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.membershipsPerks{
+    min-height: 150px;
+}
+
+.membershipsCard p{
+    margin-bottom: 1rem;
+
+}
+
+.card-icon{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: var(--red);
+}
+
+.membershipsCard h3{
+    font-size: clamp(1rem, 5vw, 2rem);
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1100px) {
+    .membershipsWrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .membershipsCard{
+        width: 80%;
+        margin-bottom: 2rem;
+    }
 }
