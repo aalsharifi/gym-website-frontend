@@ -4,12 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alsharifi Fitness Gym</title>
+    <title>Alsharifi Fitness</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/7da085ad9b.js" crossorigin="anonymous"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <!--  -->
 </head>
 <body>
     <!-- nav bar -->
     <nav class="navBar">
-        <a href="/" class="navBarLogo">LUX</a>
+        <a href="/" class="navBarLogo">Alsharifi</a>
+
         <div class="navBarToggle" id="mobileMenu">
             <span class="bar"></span>
             <span class="bar"></span>
@@ -20,9 +29,81 @@
             <a href="/" class="navBarLink">Home</a>
             <a href="/services.html" class="navBarLink">Services</a>
             <a href="/plans.html" class="navBarLink">Plans</a>
-            <a href="/trainers.html" class="navBarLink">Trainers</a>
-        </div>
-        
+        </div> 
     </nav>
+
+    <!-- services -->
+    <div class="services">
+        <div class="servicesContainer">
+            <div>
+                <p class="topline">Features</p>
+                <h1 class="servicesHeading">What we offer</h1>
+                <div class="servicesFeatures">
+                    <table class="table">
+                    <tbody>
+                        <tr>
+                            <td><i class="far fa-check-circle"></i>Group Fitness Classes</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-check-circle"></i>Personal Trainer Sessions</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-check-circle"></i>Indoor Pool</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-check-circle"></i>Steam Room and Sauna</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-check-circle"></i>Basketball Court</td>
+                        </tr>
+                        <tr>
+                            <td><i class="far fa-check-circle"></i>Open 24/7</td>
+                        </tr>
+                    </tbody>
+                    </table>
+                </div>
+            </div>
+            <div>
+                <img src="./images/gym2.jpg" alt="gym picture" class="servicesImg">
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- footer -->
+    <div class="footer">
+        <div class="footerWrapper">
+            <div class="footerDesc">
+                <h1>AlSHARIFI FITNESS</h1>
+                <p>Luxury fitness Gym</p>
+                <p id="phone">313 - 123 - 4567</p>
+            </div>
+            <div class="footerLinks">
+                <h2 class="footerTitle">Contact Us</h2>
+                <a href="/services.html" class="footerLink">Contact</a>
+                <a href="/services.html" class="footerLink">Support</a>
+                <a href="/services.html" class="footerLink">Sponsorships</a>
+            </div>
+        </div>
+        <div class="footerWrapper">
+            <div class="footerLinks">
+                <h2 class="footerTitle">Memberships</h2>
+                <a href="/" class="footerLink">Pricing</a>
+                <a href="/" class="footerLink">Plans</a>
+                <a href="/" class="footerLink">FAQ</a>
+            </div>
+            <div class="footerLinks">
+                <h2 class="footerTitle">Social Media</h2>
+                <a href="/" class="footerLink">Instagram</a>
+                <a href="/" class="footerLink">Facebook</a>
+                <a href="/" class="footerLink">Youtube</a>
+            </div>
+
+        </div>
+    </div>
+    
+    
+    <script src="app.js"></script>
+
 </body>
 </html>

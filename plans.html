@@ -4,12 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alsharifi Fitness Gym</title>
+    <title>Alsharifi Fitness</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/7da085ad9b.js" crossorigin="anonymous"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <!--  -->
 </head>
 <body>
     <!-- nav bar -->
     <nav class="navBar">
-        <a href="/" class="navBarLogo">LUX</a>
+        <a href="/" class="navBarLogo">Alsharifi</a>
+
         <div class="navBarToggle" id="mobileMenu">
             <span class="bar"></span>
             <span class="bar"></span>
@@ -20,9 +29,88 @@
             <a href="/" class="navBarLink">Home</a>
             <a href="/services.html" class="navBarLink">Services</a>
             <a href="/plans.html" class="navBarLink">Plans</a>
-            <a href="/trainers.html" class="navBarLink">Trainers</a>
-        </div>
-        
+        </div> 
     </nav>
+
+    <!-- membership -->
+    <div class="memberships">
+        <h1>View Our Plans</h1>
+        <p class="membershipsDesc">Get started today and receive first month free</p>
+        <div class="membershipsWrapper">
+            <div class="membershipsCard">
+                <div class="membershipsTitle">
+                    <i class="fas fa-walking card-icon"></i>
+                    <h3>Basic</h3>
+                </div>
+                <div class="membershipsPerks">
+                    <p>Get access to entire gym</p>
+                    <p>$9.99 per month</p>
+                </div>
+                <a href="/" class="button">Sign Up</a>
+            </div>
+            <div class="membershipsCard">
+                <div class="membershipsTitle">
+                    <i class="fas fa-dumbbell card-icon"></i>
+                    <h3>Silver</h3>
+                </div>
+                <div class="membershipsPerks">
+                    <p>Get access to entire gym</p>
+                    <p>Group fitness classes</p>
+                    <p>$14.99 per month</p>
+                </div>
+                <a href="/" class="button">Sign Up</a>
+            </div>
+            <div class="membershipsCard">
+                <div class="membershipsTitle">
+                    <i class="fas fa-biking card-icon"></i>
+                    <h3>Gold</h3>
+                </div>
+                <div class="membershipsPerks">
+                    <p>Get access to entire gym</p>
+                    <p>Group fitness classes</p>
+                    <p>Private personal training</p>
+                    <p>$19.99 per month</p>
+                </div>
+                <a href="/" class="button">Sign Up</a>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- footer -->
+    <div class="footer">
+        <div class="footerWrapper">
+            <div class="footerDesc">
+                <h1>AlSHARIFI FITNESS</h1>
+                <p>Luxury fitness Gym</p>
+                <p id="phone">313 - 123 - 4567</p>
+            </div>
+            <div class="footerLinks">
+                <h2 class="footerTitle">Contact Us</h2>
+                <a href="/services.html" class="footerLink">Contact</a>
+                <a href="/services.html" class="footerLink">Support</a>
+                <a href="/services.html" class="footerLink">Sponsorships</a>
+            </div>
+        </div>
+        <div class="footerWrapper">
+            <div class="footerLinks">
+                <h2 class="footerTitle">Memberships</h2>
+                <a href="/" class="footerLink">Pricing</a>
+                <a href="/" class="footerLink">Plans</a>
+                <a href="/" class="footerLink">FAQ</a>
+            </div>
+            <div class="footerLinks">
+                <h2 class="footerTitle">Social Media</h2>
+                <a href="/" class="footerLink">Instagram</a>
+                <a href="/" class="footerLink">Facebook</a>
+                <a href="/" class="footerLink">Youtube</a>
+            </div>
+
+        </div>
+    </div>
+    
+    
+    <script src="app.js"></script>
+
 </body>
 </html>
