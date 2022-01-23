@@ -270,6 +270,68 @@
     }
 }
 
+
+/* tour booking*/
+
+.tour{
+    padding: 8rem calc((100vw - 1100px) / 2); 
+
+}
+
+.tourContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tourContent h1{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    padding: 0 1rem;
+}
+
+.tourContent p{
+    text-align: center;
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    padding: 0 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.tourFormWrapper input, select{
+    padding: 1rem 1.5rem;
+    outline: none;
+    width: 350px;
+    height: 50px;
+    border: none;
+    margin: 1rem 1rem;
+    border-radius: 4px;
+    background-color: rgb(218, 218, 218);
+
+}
+
+.tourContent button{
+    margin-top: 2rem; 
+    margin-left: 27rem;
+    padding: 1rem 5rem;
+}
+
+@media screen and (max-width: 768px){
+    .tour form{
+        margin-left: -7rem;
+    }
+
+    .phoneSmall{
+        margin-left: 7.5rem;
+    }
+    .tourContent button{
+        margin-left: 10.5rem;
+        max-width: 60%;
+        min-width: 250px;
+    }
+    
+}
+
 /* email */
 .email{
     background: linear-gradient(
@@ -350,7 +412,6 @@ form{
 }
 
 /* footer */
-
 .footer{
     padding: 5rem calc((100vw - 1100px) / 2);
     display: grid;
@@ -422,4 +483,8 @@ form{
         padding: 1rem;
     }
 }
+
+
+
+
 

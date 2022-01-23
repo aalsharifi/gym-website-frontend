@@ -122,6 +122,44 @@
         </div>
     </div>
 
+    <!-- tour booking -->
+    <div class="tour">
+        <div class="tourContent">
+            <h1>Book a Tour Today</h1>
+            <p>Sign up for a tour and see all the great things our gym has to offer</p>
+            <form action="#">
+                <div class="tourFormWrapper" id="wrap" style="margin-left: 10rem;">
+                    <input type="text" placeholder="First Name" id="firstName" required>
+                    <input type="text" placeholder="Last Name" id="lastName" required>
+                    <input type="email" placeholder="Email" id="tourEmail" required>
+            
+                    <input type="tel" placeholder="Mobile Number" id="phoneNumber" 
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                    required>
+                    <small class="phoneSmall">Format: 123-456-7890</small>
+                    
+                    <input type="date" id="localDate" required>
+
+                    <select id="selectTime" required>
+                        <option value="" disabled selected>Select Time</option>
+                        <option value="9:30 am">9:30 am</option>
+                        <option value="10:30 am">10:30 am</option>
+                        <option value="11:30 am">11:30 am</option>
+                        <option value="12:30 pm">12:30 pm</option>
+                        <option value="1:30 pm">11:30 pm</option>
+                        <option value="2:30 pm">2:30 pm</option>
+                        <option value="3:30 pm">3:30 pm</option>
+                        <option value="4:30 pm">3:30 pm</option>
+                    </select>
+                    <small>EST</small>
+                </div>
+                <button class="button" type = "submit">Book Date</button>
+            </form>
+        </div>
+
+    </div>
+
+
     <!-- email -->
     <div class="email">
         <div class="emailContent">
@@ -130,13 +168,14 @@
             <form action="#">
                 <div class="formWrapper">
                     <label for="email">
-                        <input type="email" placeholder="Enter your email" id="email">
+                        <input type="email" placeholder="Enter your email" id="email" required>
                     </label>
                     <button class="button" type = "submit">Sign Up</button>
                 </div>
             </form>
         </div>
     </div>
+
 
     <!-- footer -->
     <div class="footer">
@@ -170,7 +209,7 @@
         </div>
     </div>
     
-    <!-- animations -->
+    <!-- GreenSock animations -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
     <!--  -->
