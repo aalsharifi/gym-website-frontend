@@ -15,13 +15,6 @@ const body = document.querySelector('body');
  //animations
  gsap.registerPlugin(ScrollTrigger)
 
- gsap.from('.animateHero', {
-    duration: 0.6, 
-    opacity: 0, 
-    y: -150, 
-    stagger: 0.3
- });
-
  gsap.from('.animateServices', {
    ScrollTrigger: '.animateServices',
    duration: 0.5, 
